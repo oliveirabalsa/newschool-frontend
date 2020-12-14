@@ -117,6 +117,7 @@ export default {
      */
     closeMenu() {
       document.getElementById('menu-btn').click();
+      w;
     },
     logout() {
       this.logoutSocial().then(() => {
